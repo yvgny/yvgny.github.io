@@ -14,3 +14,5 @@ The `Makefile` can be used to build it with `make build`
 ## Serve
 
 Similarly, the blog can be served locally for development purpose (and will reload when changes are made) with `make serve`. This also rebuilds the blog.
+
+You can then access the blog at `localhost:4000`.
