@@ -1,0 +1,13 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+// Set monospace font for the title
+.site-title {
+    font-family: monospace !important; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-item-align: center; align-self: center; font-weight: bold;
+}
+  
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
