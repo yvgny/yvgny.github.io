@@ -32,7 +32,7 @@ name: yvgny
 logo: "/assets/images/logo.svg"
 
 #
-# Configure author sidebar
+# Configure layouts (add sidebar, wide layout)
 #
 defaults:
   # _posts
@@ -41,6 +41,7 @@ defaults:
       type: posts
     values:
       author_profile: true
+      classes: wide
 
   # homepage (index.html or anything at root)
   - scope:
@@ -48,6 +49,7 @@ defaults:
       type: pages
     values:
       author_profile: true
+      classes: wide
 
 author:
   name: "yvgny"
