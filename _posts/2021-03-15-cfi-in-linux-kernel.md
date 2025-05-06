@@ -1,21 +1,24 @@
 ---
-title: "LLVM-CFI and the Linux Kernel"
+title: "[1/4] LLVM-CFI and the Linux Kernel"
 excerpt: "Exploring how LLVM-CFI works in the Linux kernel, why it helps, and where it still falls short, especially against data-only attacks."
 layout: single
-date: 2025-04-30
+date: 2021-03-15
 tags: [linux-kernel, llvm-cfi, memory-security, data-only-attacks, kernel-exploitation]
 ---
 
 ---
 
-This blog series explores the limitations of Control-Flow Integrity (CFI) in the Linux kernel, with a specific focus on data-only attacks. While CFI is a powerful mitigation that restricts control-flow hijacking, it does not protect program data, which can still be targeted by attackers. The series will analyze a set of real-world Linux kernel bugs/vulnerabilities and demonstrate how each of them can be exploited using data-only techniques, without violating control-flow integrity.
+This blog series explores the usage of Control-Flow Integrity (CFI) in the Linux kernel, with a specific focus on data-only attacks. While CFI is a powerful mitigation that restricts control-flow hijacking, it does not protect program data, which can still be targeted by attackers. The series will analyze a set of real-world Linux kernel bugs/vulnerabilities and demonstrate how each of them can be exploited using data-only techniques, without violating control-flow integrity.
+
+These posts are adapted from my [Master thesis](/assets/thesis.pdf), which explored the effectiveness of Control-Flow Integrity (CFI) on a large set of bugs collected by Syzbot.
+{: .notice--info}
 
 ### Overview
 
-1. Control-Flow Integrity and Data-Only Attacks in the Linux Kernel *(this post)*
-2. [Exploit 1 – Placeholder Title](#)
-3. [Exploit 2 – Placeholder Title](#)
-4. [Exploit 3 – Placeholder Title](#)
+1. LLVM-CFI and the Linux Kernel *(this post)*
+2. [From Crash Report to Root Access: Building an End-to-End Data-Only Exploit]({% post_url 2021-03-16-syzbot-bug %})
+3. [Revisiting CVE-2017-7308](#) *(coming soon)*
+4. [Revisiting CVE-2017-11176](#) *(coming soon)*
 
 ## What is CFI?
 
