@@ -15,7 +15,7 @@
   // "onCreateCommand": "",
   
   // Use 'postCreateCommand' to run commands after creating the container.
-  // "postCreateCommand": "",
+  "postCreateCommand": "bundle install",
   
   // Configure tool-specific properties.
   // "customizations": {},

@@ -81,6 +81,12 @@ plugins:
 atom_feed:
   hide: true
 
+# Configure stats
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-65W5BEKPWZ"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
