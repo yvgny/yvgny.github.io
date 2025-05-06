@@ -1,4 +1,4 @@
-# cd thoughts blog 
+# `cd thoughts` blog 
 
 Jekyll sources for the blog hosted on the Github Pages. A GitHub Action takes care of building the repo and deploying it from `main`.
 
