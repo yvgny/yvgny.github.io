@@ -1,5 +1,5 @@
 ---
-title: "[2/4] From Crash Report to Root Access: Building a Kernel Exploit"
+title: "From Crash Report to Root Access: Building a Kernel Exploit (CFI 2/4)"
 excerpt: "Building a data-only exploit from scratch, from an out-of-bounds bug. We'll cover heap grooming, privilege escalation, and more."
 date: 2021-03-16
 layout: single
@@ -19,7 +19,7 @@ tags:
 1. [LLVM-CFI and the Linux Kernel]({% post_url 2021-03-15-cfi-in-linux-kernel %})
 2. From Crash Report to Root Access: Building an End-to-End Data-Only Exploit *(this post)*
 3. [Revisiting CVE-2017-7308]({% post_url 2021-03-17-cve-2017-7308 %})
-4. [Revisiting CVE-2017-11176](#) *(coming soon)*
+4. [Revisiting CVE-2017-11176]({% post_url 2021-03-18-cve-2017-11176 %})
 
 ---
 

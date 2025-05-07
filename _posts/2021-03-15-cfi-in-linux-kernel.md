@@ -1,6 +1,6 @@
 ---
-title: "[1/4] LLVM-CFI and the Linux Kernel"
-excerpt: "Exploring how LLVM-CFI works in the Linux kernel, why it helps, and where it still falls short, especially against data-only attacks."
+title: "LLVM-CFI and the Linux Kernel (CFI 1/4)"
+excerpt: "Exploring how Control-Flow Integrity works in the Linux kernel, why it helps, and where it still falls short, especially against data-only attacks."
 layout: single
 date: 2021-03-15
 tags: [linux-kernel, llvm-cfi, memory-security, data-only-attacks, kernel-exploitation]
@@ -18,7 +18,7 @@ These posts are adapted from my [Master thesis](/assets/thesis.pdf), which explo
 1. LLVM-CFI and the Linux Kernel *(this post)*
 2. [From Crash Report to Root Access: Building an End-to-End Data-Only Exploit]({% post_url 2021-03-16-syzbot-bug %})
 3. [Revisiting CVE-2017-7308]({% post_url 2021-03-17-cve-2017-7308 %})
-4. [Revisiting CVE-2017-11176](#) *(coming soon)*
+4. [Revisiting CVE-2017-11176]({% post_url 2021-03-18-cve-2017-11176 %})
 
 ## What is CFI?
 
