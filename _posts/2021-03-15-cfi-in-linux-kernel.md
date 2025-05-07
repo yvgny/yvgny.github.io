@@ -17,7 +17,7 @@ These posts are adapted from my [Master thesis](/assets/thesis.pdf), which explo
 
 1. LLVM-CFI and the Linux Kernel *(this post)*
 2. [From Crash Report to Root Access: Building an End-to-End Data-Only Exploit]({% post_url 2021-03-16-syzbot-bug %})
-3. [Revisiting CVE-2017-7308](#) *(coming soon)*
+3. [Revisiting CVE-2017-7308]({% post_url 2021-03-17-cve-2017-7308 %})
 4. [Revisiting CVE-2017-11176](#) *(coming soon)*
 
 ## What is CFI?
