@@ -1,5 +1,5 @@
 ---
-title: "From Crash Report to Root Access: Building a Kernel Exploit (CFI 2/4)"
+title: "From Crash Report to Root Access and CVE: Building a Kernel Exploit (CFI 2/4)"
 excerpt: "Building a data-only exploit from scratch, from an out-of-bounds bug. We'll cover heap grooming, privilege escalation, and more."
 date: 2021-03-16
 layout: single
