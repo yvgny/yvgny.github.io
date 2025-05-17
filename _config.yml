@@ -43,10 +43,10 @@ defaults:
       author_profile: true
       classes: wide
   # remove PDFs from sitemap
-    scope:
-      path:            "assets/**/*.pdf"
+  - scope:
+      path: "assets/**/*.pdf"
     values:
-      sitemap:         false
+      sitemap: false
 
   # homepage (index.html or anything at root)
   - scope:
