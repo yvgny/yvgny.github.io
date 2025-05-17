@@ -32,16 +32,21 @@ name: Sacha
 logo: "/assets/images/logo.svg"
 
 #
-# Configure layouts (add sidebar, wide layout)
+# Configure defaults (add sidebar, wide layout)
 #
 defaults:
-  # _posts
+  # add sidebar + wide layout to _posts 
   - scope:
       path: ""
       type: posts
     values:
       author_profile: true
       classes: wide
+  # remove PDFs from sitemap
+    scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false
 
   # homepage (index.html or anything at root)
   - scope:
@@ -76,6 +81,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 minimal_mistakes_skin: "dark" 
 plugins:
   - jekyll-include-cache # Required by Minimal Mistakes theme
+  - jekyll-sitemap # Generate a sitemap (for indexing)
+
 
 # Hide the Feed icon/link
 atom_feed:
