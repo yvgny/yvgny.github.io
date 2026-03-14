@@ -21,8 +21,7 @@
 title: cd thoughts
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I write about things that break, things that protect, and how to build better. 
-  Also: crypto(graphy), code, or any thoughts worth listing.
+  Placeholder
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: yvgny.github.io
 url: "https://blog.cdthoughts.ch" # the base hostname & protocol for your site, e.g. http://example.com
@@ -59,17 +58,13 @@ defaults:
 author:
   name: "Sacha"
   bio: >-
-    I write about things that break, things that protect, and how to build better. 
-    Also: crypto(graphy), code, or any thoughts worth listing.
+    Security researcher, currently working @Bugscale. I don't post much, but I hope you'll find something interesting here.
   avatar   : "/assets/images/bio-photo.jpeg"
   location: "Switzerland"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yvgny"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/sacha-kozma/"
 
 
 # Configure homepage pagination
