@@ -21,7 +21,7 @@
 title: cd thoughts
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Placeholder
+  Posting about security research, and whatever else crosses my mind
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: yvgny.github.io
 url: "https://blog.cdthoughts.ch" # the base hostname & protocol for your site, e.g. http://example.com
