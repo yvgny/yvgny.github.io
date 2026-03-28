@@ -11,3 +11,11 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.archive__item-taxonomy {
+    margin: 0.35em 0 0.5em;
+}
+
+.archive__item-taxonomy .page__taxonomy-item {
+    margin-bottom: 0;
+}
