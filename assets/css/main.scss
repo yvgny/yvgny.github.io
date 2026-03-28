@@ -12,10 +12,34 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.archive__item-taxonomy {
-    margin: 0.35em 0 0.5em;
+.archive__eyebrow {
+    margin: 0 0 0.18rem;
 }
 
-.archive__item-taxonomy .page__taxonomy-item {
-    margin-bottom: 0;
+.archive__eyebrow-link,
+.archive__eyebrow-link:visited {
+    display: inline-block;
+    font-size: 0.66rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #9aa3ad;
+}
+
+.archive__eyebrow-link:hover,
+.archive__eyebrow-link:focus,
+.archive__eyebrow-link:focus-visible {
+    color: #cbd3db;
+    text-decoration: none;
+}
+
+.archive__eyebrow-link:focus-visible {
+    outline: 1px solid rgba(203, 211, 219, 0.35);
+    outline-offset: 2px;
+}
+
+.list__item .archive__item-title {
+    margin-top: 0;
 }

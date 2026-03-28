@@ -25,6 +25,12 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
+    {% if site.tag_archive.path and post.tags[0] %}
+      {% assign primary_tag = post.tags[0] %}
+      <p class="archive__eyebrow">
+        <a href="{{ primary_tag | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" class="archive__eyebrow-link p-category" rel="tag">{{ primary_tag }}</a>
+      </p>
+    {% endif %}
     <h2 class="archive__item-title no_toc p-name" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a class="u-url" href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -33,12 +39,6 @@
       {% endif %}
     </h2>
     {% include page__meta.html locale=locale type=include.type %}
-    {% if site.tag_archive.path and post.tags[0] %}
-      {% assign primary_tag = post.tags[0] %}
-      <p class="page__taxonomy archive__item-taxonomy">
-        <a href="{{ primary_tag | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ primary_tag }}</a>
-      </p>
-    {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>
