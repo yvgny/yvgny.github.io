@@ -83,10 +83,6 @@ plugins:
 atom_feed:
   hide: true
 
-tag_archive:
-  type: liquid
-  path: /tags/
-
 # Configure stats
 analytics:
   provider: "google-gtag"
