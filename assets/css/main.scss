@@ -43,3 +43,13 @@ search: false
 .list__item .archive__item-title {
     margin-top: 0;
 }
+
+.page__footer {
+    color: #eaeaea;
+}
+
+@media (min-width: 64em) {
+    .page__footer footer {
+        opacity: 0.75;
+    }
+}
