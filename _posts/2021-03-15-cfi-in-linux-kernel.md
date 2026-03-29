@@ -3,7 +3,7 @@ title: "LLVM-CFI and the Linux Kernel (CFI 1/4)"
 excerpt: "Exploring how Control-Flow Integrity works in the Linux kernel, why it helps, and where it still falls short, especially against data-only attacks."
 layout: single
 date: 2021-03-15
-tags: [linux-kernel, llvm-cfi, memory-security, data-only-attacks, kernel-exploitation]
+tags: [kernel]
 ---
 
 ---

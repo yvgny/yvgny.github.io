@@ -11,3 +11,35 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.archive__eyebrow {
+    margin: 0 0 0.18rem;
+}
+
+.archive__eyebrow-text {
+    display: inline-block;
+    font-size: 0.66rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #9aa3ad;
+}
+
+.list__item .archive__item-title {
+    margin-top: 0;
+}
+
+.archive__item-excerpt {
+    font-size: 0.85em;
+}
+
+.page__footer {
+    color: #eaeaea;
+}
+
+@media (min-width: 64em) {
+    .page__footer footer {
+        opacity: 0.75;
+    }
+}

@@ -3,13 +3,7 @@ title: "From Crash Report to Root Access and CVE: Building a Kernel Exploit (CFI
 excerpt: "Building a data-only exploit from scratch, from an out-of-bounds bug. We'll cover heap grooming, privilege escalation, and more."
 date: 2021-03-16
 layout: single
-tags:
-  - linux-kernel
-  - cfi
-  - exploit
-  - security-research
-  - privilege-escalation
-  - data-only
+tags: [kernel]
 ---
 
 ---
